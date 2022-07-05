@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  color: #213135;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #D2E5D0;
+}
+
+/*.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+  background-color: $background-primary;
+}*/
+.userLogin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+  background-color: #D2E5D0;
+}
+
+.userLogin .loginSection {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem;
+  background-color: #AAD6A0;
+  color: #213135;
+  -webkit-box-shadow: 5px 10px 8px 10px #888888;
+          box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.userLogin .loginSection form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.userLogin .loginSection a,
+.userLogin .loginSection a:visited {
+  color: #1e5262;
+}
+
+.userLogin .loginSection input[type="text"],
+.userLogin .loginSection input[type="password"],
+.userLogin .loginSection input[type="number"],
+.userLogin .loginSection button,
+.userLogin .loginSection textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.userLogin .loginSection label {
+  margin-top: 1rem;
+}
+
+.userLogin .loginSection .instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.userLogin .loginSection .instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.userLogin .loginSection .offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.userLogin .loginSection .hide {
+  display: none;
+}
+
+.userLogin .loginSection .valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.userLogin .loginSection .invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.userLogin .loginSection .errmsg {
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.userLogin .loginSection .line {
+  display: inline-block;
+}
+
+.userLogin .loginSection #btn-login {
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-color: #fcb1b1;
+  -webkit-box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.092);
+          box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.092);
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.userLogin .loginSection #btn-login:hover {
+  background: #f58080;
+  -webkit-box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.15);
+          box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.15);
+}
+
+.userLogin .loginSection #registration-part {
+  margin-top: 0.5rem;
+}
+
+.userLogin .loginSection .paragraph_welcome {
+  font-size: 1.5rem;
+}
+
+.welcomeCustomer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+  background-color: #D2E5D0;
+}
+
+.welcomeCustomer .section_unauthorizedAccess {
+  width: 100%;
+  max-width: 420px;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 1rem;
+  background-color: #AAD6A0;
+  color: #213135;
+  -webkit-box-shadow: 5px 10px 8px 10px #888888;
+          box-shadow: 5px 10px 8px 10px #888888;
+  background-color: #fcb1b1;
+}
+
+.registration {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.registration .sectionRegistration {
+  width: 100%;
+  max-width: 460px;
+  min-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 0.375rem 1.2rem 0.4rem 1.2rem;
+  color: #213135;
+  -webkit-box-shadow: 5px 10px 8px 10px #888888;
+          box-shadow: 5px 10px 8px 10px #888888;
+  background-color: #a7b0f7;
+}
+
+.registration .sectionRegistration form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.registration .sectionRegistration a,
+.registration .sectionRegistration a:visited {
+  color: #1e5262;
+}
+
+.registration .sectionRegistration input[type="text"],
+.registration .sectionRegistration input[type="password"],
+.registration .sectionRegistration input[type="number"],
+.registration .sectionRegistration button,
+.registration .sectionRegistration textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.registration .sectionRegistration label {
+  margin-top: 1rem;
+}
+
+.registration .sectionRegistration .instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.registration .sectionRegistration .instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.registration .sectionRegistration .offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.registration .sectionRegistration .hide {
+  display: none;
+}
+
+.registration .sectionRegistration .valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.registration .sectionRegistration .invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.registration .sectionRegistration .errmsg {
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.registration .sectionRegistration .line {
+  display: inline-block;
+}
+
+.registration .sectionRegistration #btn-login {
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-color: #fcb1b1;
+  -webkit-box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.092);
+          box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.092);
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.registration .sectionRegistration #btn-login:hover {
+  background: #f58080;
+  -webkit-box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.15);
+          box-shadow: 10px 10px 1px rgba(0, 0, 255, 0.15);
+}
+
+.registration .sectionRegistration #registration-part {
+  margin-top: 0.5rem;
+}
+
+.registration .sectionRegistration .paragraph_welcome {
+  font-size: 1.5rem;
+}
+
+.registration .sectionRegistration .button-disabled {
+  background: #edacac;
+}
+
+.showReceiptLink {
+  border-bottom: 3px solid #ED2938;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.showReceiptLink:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #165FC6;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* this is to match where the border is */
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  /*   will-change: transform; */
+}
+
+.showReceiptLink:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+.showReceiptLink:hover:before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.statisticsTitle {
+  margin-top: 10px;
+  margin-right: 45%;
+  /* RESET */
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 5px 5px;
+  overflow: hidden;
+  color: #333;
+  vertical-align: bottom;
+  -webkit-transition: color .3s ease-out;
+  transition: color .3s ease-out;
+}
+
+.statisticsTitle::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(calc(100% - 2px));
+          transform: translateY(calc(100% - 2px));
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(60deg, #0088DD 0%, #FFEB01 100%);
+  -webkit-transition: -webkit-transform .25s ease-out;
+  transition: -webkit-transform .25s ease-out;
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+
+.statisticsTitle:hover {
+  color: #fff;
+  -webkit-box-shadow: #2badff 5px 10px 5px 0px, #e9f77a 16px 20px 5px 0px;
+          box-shadow: #2badff 5px 10px 5px 0px, #e9f77a 16px 20px 5px 0px;
+}
+
+.statisticsTitle:hover::before {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: -webkit-transform .25s ease-out;
+  transition: -webkit-transform .25s ease-out;
+  transition: transform .25s ease-out;
+  transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+}
+/*# sourceMappingURL=Login.css.map */
