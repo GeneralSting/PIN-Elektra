@@ -29,7 +29,7 @@ Kao izvor podataka potrebno je kreirati bazu podataka. Inicijalno kreirati i pop
 <p>-Promjena podatkovnog člana klase Racun „stornirano“. Stornirani računi ne ulaze u pregled i statistiku.</p>
 </li>
 <li>Pregled storniranih računa
-</p>Potrebno je omogućiti pregled svih storniranih računa.</p>
+<p>-Potrebno je omogućiti pregled svih storniranih računa.</p>
 </li>
 <li>Statistika
 <p>-Ukupna količina prodanih artikala, grupirano po artiklima od najveće prema najmanjoj količini za sve kupce.</p>
