@@ -17,22 +17,22 @@ Kao izvor podataka potrebno je kreirati bazu podataka. Inicijalno kreirati i pop
 <ul>Informacijski sustav mora imati sljedeće funkcionalnosti:
 <hr/>
 <li>Kreiraj račun:
-<p>Omogućiti odabir kupca s liste kupaca, odabrati artikle, unijeti količinu i kreirati račun. Kupca odabrati iz liste kupaca korištenjem tražilice tražilici. Omogućiti unos ključne riječi koja pretražuje po svim podatkovnim članovima klase Kupac.</p>
+<p>-Omogućiti odabir kupca s liste kupaca, odabrati artikle, unijeti količinu i kreirati račun. Kupca odabrati iz liste kupaca korištenjem tražilice tražilici. Omogućiti unos ključne riječi koja pretražuje po svim podatkovnim članovima klase Kupac.</p>
 </li>
 <li>Dodavanje/Ažuriranje/Brisanje kupca
-<p>Potrebno je omogućiti putem novog izbornika opciju dodavanje, brisanje i ažuriranje kupca.</p>
+<p>-Potrebno je omogućiti putem novog izbornika opciju dodavanje, brisanje i ažuriranje kupca.</p>
 </li>
 <li>Pregled računa kupaca
-<p>Potrebno je omogućiti pregled kreiranih računa samo za odabranog kupca</p>
+<p>-Potrebno je omogućiti pregled kreiranih računa samo za odabranog kupca</p>
 </li>
 <li>Storniranje računa
-<p>Promjena podatkovnog člana klase Racun „stornirano“. Stornirani računi ne ulaze u pregled i statistiku.</p>
+<p>-Promjena podatkovnog člana klase Racun „stornirano“. Stornirani računi ne ulaze u pregled i statistiku.</p>
 </li>
 <li>Pregled storniranih računa
 </p>Potrebno je omogućiti pregled svih storniranih računa.</p>
 </li>
 <li>Statistika
-<p>Ukupna količina prodanih artikala, grupirano po artiklima od najveće prema najmanjoj količini za sve kupce.</p>
-<p>Prikaz „top 10“ kupaca po veličini računa, po količini potrošene električne energije po „niskoj“ tarifi.</p>
+<p>-Ukupna količina prodanih artikala, grupirano po artiklima od najveće prema najmanjoj količini za sve kupce.</p>
+<p>-Prikaz „top 10“ kupaca po veličini računa, po količini potrošene električne energije po „niskoj“ tarifi.</p>
 </li>
 </ul>
