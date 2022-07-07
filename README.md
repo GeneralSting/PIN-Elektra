@@ -36,3 +36,7 @@ Kao izvor podataka potrebno je kreirati bazu podataka. Inicijalno kreirati i pop
 <p>-Prikaz „top 10“ kupaca po veličini računa, po količini potrošene električne energije po „niskoj“ tarifi.</p>
 </li>
 </ul>
+
+<h2>Izgled baze podataka</h2>
+
+![baza](https://user-images.githubusercontent.com/100438690/177821435-ab0b7568-30ad-4ce1-8596-43867300a9b0.png)
